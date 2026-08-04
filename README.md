@@ -38,7 +38,6 @@ The game includes a complete menu system, difficulty levels, persistent high sco
 - Concepts Used
 - Installation
 - Future Improvements
-- Learning Outcome
 - Author
 
 ---
@@ -118,12 +117,12 @@ Each food collected increases the score by **10 points**.
 
 Suggested screenshots:
 
-- Main Menu
-- Gameplay
-- Difficulty Menu
-- Instructions
-- High Score
-- Game Over
+- Main Menu [Click](Images/menu.png)
+- Gameplay [Click](Images/gameplay.png)
+- Difficulty Menu [Click](Images/difficulty.png)
+- Instructions [Click](Images/instructions.png)
+- High Score [Click](Images/highscore.png)
+- Game Over .. click 5 to Exit programe
 
 ---
 
@@ -155,8 +154,7 @@ Snake-Game-Dada-Edition
 ├── SnakeGame.cpp
 ├── highscore.txt
 ├── README.md
-├── LICENSE
-└── screenshots
+└── Images
     ├── menu.png
     ├── gameplay.png
     ├── instructions.png
@@ -209,6 +207,8 @@ Instead of asking AI for a complete game in one attempt, detailed prompts were w
 - Programming style
 - Library usage
 - Overall architecture
+
+Use Prompt to build project from AI(chtGPT). [click](Prompt/promptFile.txt)
 
 Each generated result was tested, evaluated, refined, and improved until the desired behavior was achieved.
 
@@ -298,7 +298,7 @@ This allows the score to persist even after closing the game.
 Clone the repository
 
 ```
-git clone https://github.com/YourUsername/cpp-funny-snake-game.git
+git clone https://github.com/shakirkhan709-cloud/cpp-funny-snake-game-.git
 ```
 
 Open in Visual Studio or VS Code.
@@ -306,13 +306,13 @@ Open in Visual Studio or VS Code.
 Compile:
 
 ```
-g++ SnakeGame.cpp -o SnakeGame
+g++ snake.cpp -o snake
 ```
 
 Run:
 
 ```
-SnakeGame.exe
+snake.exe
 ```
 
 ---
@@ -332,38 +332,12 @@ SnakeGame.exe
 
 ---
 
-# 📚 Learning Outcome
-
-This project helped strengthen understanding of:
-
-- C++ Programming
-- Console Game Development
-- Data Structures
-- File Handling
-- Problem Solving
-- Software Design
-- Prompt Engineering
-- AI-Assisted Development Workflow
-- Debugging
-- Code Refinement
-
----
 
 # 👨‍💻 Author
 
 **Shakir Khan**
 
 BCA Student
-
-Passionate about
-
-- C++
-- Java
-- Python
-- Data Structures
-- Software Development
-- Artificial Intelligence
-- Prompt Engineering
 
 ---
 
