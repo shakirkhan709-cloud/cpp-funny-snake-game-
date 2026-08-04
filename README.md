@@ -151,7 +151,7 @@ Suggested screenshots:
 ```
 Snake-Game-Dada-Edition
 │
-├── SnakeGame.cpp
+├── snake.cpp
 ├── highscore.txt
 ├── README.md
 └── Images
